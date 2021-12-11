@@ -17,6 +17,6 @@ public class Selenium_handson {
 		//driver.findElement(By.id("inputPassword")).sendKeys("password");
 		//driver.findElement(By.className("signInBtn")).click();
 		driver.findElement(By.xpath("//button[@class='submit signInBtn']")).click();
-
+		driver.quit();
 	}
 }
